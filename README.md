@@ -66,7 +66,7 @@ clear acrylic layer for the under-glow.
 * 4 feet and bolts for feet
 * USB-Standard-A to USB-Mini-B cable to connect the PC to the keyboard.
 * USB-Mini-B to USB-Mini-B to connect the two keyboard halves.
-* 96 x MX Cherry Brown switches.
+* 96 x Cherry MX Brown switches.
 
 Note: 
 * The kit was missing 4-bolts and 2-standoffs for the case, but 
@@ -148,6 +148,20 @@ I'll add updates once the YMDK spare key kit comes.
 
 ![fully_assmebled](images/YMDK75_clothed.jpg)
 
+## Keyboard Layout 
+
+Because, I've bastardized some of the keypad keys and because the documentation
+is lacking, here are some layout diagrams for the YMDK 75% SP84 in ISO configuration.
+
+![ISO_Keys](images/YMDK75_SP84_ISO_Keys.jpg)
+Note that the extra keys on the left side are actually mapped to what would be
+the numberpad on a full size keyboard. The numlock will change there function
+but the standard keyboard software configuration doesn't map a numlock key.
+
+![ISO_Sizes](images/YMDK75_SP84_ISO_sizes.jpg)
+This is the same diagram but with the OEM key cap sizes. As previously stated 
+that R1 1 x 1.75u Right Shift key is the hard one to source.
+
 # Conclusions
 
 Overall, I am very happy with this keyboard and I am using it as my daily driver.
@@ -169,5 +183,11 @@ have included the latter. It had everything else, why not just 3-LED extra?
 * There are less options for ISO sets already, but this layout makes it even
 more difficult and you will need to resort to custom single key orders e.g. 
 right side shift is R 1.75u.
-* The under-glow is very dim and can't be seen in normal lighting conditions. This isn't helped by the black acrylic. A white acrylic bottom layer would probably make it brighter.
+* The under-glow is very dim and can't be seen in normal lighting conditions.
+_This is a config option that can be changed using the BootMapperClient application 
+for this keyboard_.
+* The recommended config software _BootMapperClient_, is not well documented and
+the translation from Chineese to English in the user guide, although a good effort,
+falls short. I will try and ammend this Build Log or add a separate repo when I've
+worked it out.
 
