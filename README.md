@@ -6,7 +6,7 @@ I decided to level up my Mechanical Keyboard skills by building my first kit.
 
 When it comes to Mechanical Keyboards, I know what I like
 * ISO UK over ANSI
-* MK Browns or MX Clears
+* MX Browns or MX Clears
 
 I've wanted a split keyboard for a while, but the need for an ISO UK layout put
 me off a pure Ergonomic build. It's also very hard to find a custom split that 
@@ -37,7 +37,7 @@ Prices are converted from USD to GBP, as calculated at time of purchase.
 ANSI ISO DIY Kit](https://www.aliexpress.com/i/33006060286.html) similar to VEA layout.
 * There are several purchase options from bare PCB to fully assembled kit, with
 a variety of switch options available too.
-* I went with option 3 - Kit + 97 Mx Cherry Brown switches + MX Stabilizers.
+* I went with option 3 - Kit + 97 Cherry MX Brown switches + MX Stabilizers.
 * You also need to buy 3 LED to go with the kit. I had some already, so
 didn't bother.
 * The kit doesn't include key caps but YMDK sell ANSI OEM key caps specifically 
@@ -176,7 +176,7 @@ The cons listed below are minor, in my opinion.
 keyboard.
 
 ## Cons
-* Kit came with everything except key-caps and lEDs, but I feel that it could
+* Kit came with everything except key-caps and LED, but I feel that it could
 have included the latter. It had everything else, why not just 3-LED extra?
 * The acrylic is an absolute finger-print magnet.
 * YMDK sell key-cap sets (2 different colour schemes) for this, but not ISO.
@@ -188,6 +188,6 @@ _This is a config option that can be changed using the BootMapperClient applicat
 for this keyboard_.
 * The recommended config software _BootMapperClient_, is not well documented and
 the translation from Chineese to English in the user guide, although a good effort,
-falls short. I will try and ammend this Build Log or add a separate repo when I've
+falls short. I will try and amend this Build Log or add a separate repo when I've
 worked it out.
 
