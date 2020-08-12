@@ -155,7 +155,7 @@ is lacking, here are some layout diagrams for the YMDK 75% SP84 in ISO configura
 
 ![ISO_Keys](images/YMDK75_SP84_ISO_Keys.jpg)
 Note that the extra keys on the left side are actually mapped to what would be
-the numberpad on a full size keyboard. The numlock will change there function
+the numberpad on a full size keyboard. The numlock will change their function
 but the standard keyboard software configuration doesn't map a numlock key.
 
 ![ISO_Sizes](images/YMDK75_SP84_ISO_sizes.jpg)
