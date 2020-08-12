@@ -108,7 +108,7 @@ is on the edge of the PCB. You can see, staggered to the right, two half-hole/no
 Because this is an ISO layout, no other stabilisers are necessary. 
 
 ## Left Side ISO keys
-![left_ISO_keys](images/YMDK75_left_ISO_Keys.jpg)
+![left_ISO_keys](images/YMDK75_left_ISO_keys.jpg)
 
 Before soldering anything, I laid out the switches with the ISO keys to get 
 the correct positions. 
