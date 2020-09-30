@@ -1,7 +1,9 @@
 # YMDK 75% SP84 Split Keyboard Build Log
 
-![YMDK75-split](images/YMDK75_split.jpg)
+![YMDK75-split](images/YMDK_SP84_ISO.jpg)
+Final build with YMDK keycaps (rubber ducky unrelated).
 
+# Introduction
 I decided to level up my Mechanical Keyboard skills by building my first kit.
 
 When it comes to Mechanical Keyboards, I know what I like
@@ -20,16 +22,30 @@ Unfortunately, I didn't find any build instructions for the kit on-line and
 assumed they would come with the kit. I assumed incorrectly. Any one else
 planning to build this kit, especially for ISO layout, may find this useful.
 
+## Updated: 2020-09-30
+The Tai Hao ABS key caps, although very nice, didn't quite map to the keyboard 
+layout, and the custom keys I received from WASD keyboards didn't blend well 
+enough.
+
+Then I found that I could buy the YMDK 96 84 key caps in Grey/Beige for ISO/ANSI
+layout from Amazon UK. This set wasn't fully ISO UK, but I found the additional 
+ISO keys for the YMDK set could be bought to make it a full ISO UK layout.
+
+These key caps aren't as nice or as high quality as the Tao Hao ABS Doubleshot 
+key cap set I originally bought, but they fit the layout perfectly and I am very 
+happy with them.
+
 ## Parts
 
-| Parts                                  | Cost    | Source                    |
-|:--------------------------------------:|:-------:|:-------------------------:|
-| Split 75% SP84 DIY Kit (MX Browns)     | £91.01  | AliExpress - YMDK Store   |
-| Tai Hao ABS Keycaps ANSI + ISO Mod Kit | £36.87  | AliExpress - KPRepublic   |
-| Extra keys for 84 Layout               | £7.56   | AliExpress - YMDK Store   |
-| 2 x R1 1x1, 1 x R1 1x1.75 keycaps      | £23.49  | WASD Keyboards, LLC       |
+| Parts                                         | Cost    | Source                    |
+|:---------------------------------------------:|:-------:|:-------------------------:|
+| Split 75% SP84 DIY Kit (MX Browns)            | £91.01  | AliExpress - YMDK Store   |
+| YMDK 96 84 ANSI ISO Keycap set (grey/beige)   | £19.83  | Amazon UK                 |
+| YMDK UK ISO Additional Keys Set (beige)       | £10.45  | Amazon UK                 |
 
-Prices are converted from USD to GBP, as calculated at time of purchase.
+Some prices are converted from USD to GBP, and only accurate to the time of 
+purchase.
+
 
 ### Split 75% SP84 DIY Kit
 
@@ -40,14 +56,21 @@ a variety of switch options available too.
 * I went with option 3 - Kit + 97 Cherry MX Brown switches + MX Stabilizers.
 * You also need to buy 3 LED to go with the kit. I had some already, so
 didn't bother.
-* The kit doesn't include key caps but YMDK sell ANSI OEM key caps specifically 
-for this SP84 kit. 
+* The kit doesn't include key caps but you can buy an YMDK key cap set for ANSI
+and ISO, and a separate YMDK set for European ISO keys, including UK ISO.
 
-### Keycaps 
+Originally:
 * [Tai Hao ABS Double Shot OEM Keycaps](https://www.aliexpress.com/item/32817770213.html) and [ISO Modifier Keycap kit](https://www.aliexpress.com/i/32962248699.html)
 * Fortunately, YMDK sell the [extra keys for the SP84](https://www.aliexpress.com/item/4000873836738.html?spm=a2g0s.9042311.0.0.1a954c4d8baSSx) as a kit. Although they are only PBT, they are blank.
 * The biggest issue I discovered is the right shift for ISO layout which is an R1 1x1.75 key.  
 * I ended up buying the right shift and a couple of R1 1x1 keys for the bottom row from WASD. The postage was as expensive as the keys!
+
+Updated 2020-09-30
+* [YMDK 96 84 ANSI ISO Keycap set (gray/biege)](https://www.amazon.co.uk/gp/product/B079GZQFY6/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) 
+ISO layout but not quite ISO UK.
+* [YMDK UK ISO Additional Keys Set (biege)](https://www.amazon.co.uk/gp/product/B086PDFN9S/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) 
+  for the missing ISO UK keys 
+
 
 # Build Log
 
@@ -81,7 +104,7 @@ layout.
 ![pcb_test](images/YMDK75_pcb_test.jpg)
 
 Before starting I connected the PCB using the USB cables, you can see the 
-underglow LED are working.
+under-glow LEDs are working.
 
 ## Right Side Stabilisers
 ![right_side_stabs](images/YMDK75_right_stabs.jpg)
@@ -95,7 +118,8 @@ switches fit to the plate and hold the PCB in place.
 * The space-bar key stabiliser has to be fitted 'upside down' because it is at the
 edge of the PCB and there isn't a full whole for the stabiliser leg. 
 * I should have taken a picture before adding the base plate and four corner switches. I did for the left side though, so go see that.
-* The right side shift is 1.75u, even for the ANSI layout. Let me tell you, that is a bugger to find a key cap for!
+* The right side shift is 1.75u, even for the ANSI layout. Let me tell you, that is a bugger to find a key cap for! 
+(Updated 2020-09-30: Unless you buy the YMDK key cap set).
 
 ## Left Side Stabilisers
 
@@ -144,9 +168,10 @@ that you can clearly see the switch placement for the ISO layout.
 Here it is with all key caps in position. You can see that I have used some of
 the num-pad keys on the bottom row for the split space-bar and R1 keys.
 
-I'll add updates once the YMDK spare key kit comes.
+~~I'll add updates once the YMDK spare key kit comes.~~ In the end, I bought
+the YMDK key cap set for this keyboard (see top picture).
 
-![fully_assmebled](images/YMDK75_clothed.jpg)
+![fully_assembled](images/YMDK75_clothed.jpg)
 
 ## Keyboard Layout 
 
@@ -162,6 +187,16 @@ but the standard keyboard software configuration doesn't map a numlock key.
 This is the same diagram but with the OEM key cap sizes. As previously stated 
 that R1 1 x 1.75u Right Shift key is the hard one to source.
 
+# Programming the Keyboard
+I used the [Bootmapper Client](https://www.dropbox.com/s/3bn9flirkb49ahz/BootmapperClient.zip?dl=0)
+application (downloaded from DropBox).
+
+The software is little unpolished but serviceable.
+
+I found two really good guides, linked below
+* Drop - [Programming KBD Keyboards via Bootmapper Client](https://drop.com/talk/1392/programming-kbd-keyboards-via-bootmapper-client-tmk-guide-getting-added-soon-here)
+* MecKey Alpha - [Guide on Bootmapper client](https://meckeyalpha.com/pages/guide-on-bootmapper-client)
+
 # Conclusions
 
 Overall, I am very happy with this keyboard and I am using it as my daily driver.
@@ -176,18 +211,17 @@ The cons listed below are minor, in my opinion.
 keyboard.
 
 ## Cons
-* Kit came with everything except key-caps and LED, but I feel that it could
-have included the latter. It had everything else, why not just 3-LED extra?
+* Kit came with everything except key caps and three LEDs, but I feel that it could
+have included the LEDs. 
 * The acrylic is an absolute finger-print magnet.
-* YMDK sell key-cap sets (2 different colour schemes) for this, but not ISO.
-* There are less options for ISO sets already, but this layout makes it even
-more difficult and you will need to resort to custom single key orders e.g. 
-right side shift is R 1.75u.
-* The under-glow is very dim and can't be seen in normal lighting conditions.
-_This is a config option that can be changed using the BootMapperClient application 
-for this keyboard_.
-* The recommended config software _BootMapperClient_, is not well documented and
-the translation from Chineese to English in the user guide, although a good effort,
-falls short. I will try and amend this Build Log or add a separate repo when I've
-worked it out.
+* ~~YMDK sell key-cap sets (2 different colour schemes) for this, but not ISO~~.
+* ~~The under-glow is very dim and can't be seen in normal lighting conditions.~~
 
+## Updated 2020-09-30: 
+
+As you can see, some of the Cons turned out to be simple to resolve.
+* The under-glow is configurable using the Bootmapper Client software, but by 
+default is very dim.
+* YMDK key caps for ISO and ANSI are available on Amazon UK, but it's not a full 
+ISO UK set. There are additional YMDK ISO keys for the key caps that achieve a 
+full ISO UK layout and I am very happy with that.
