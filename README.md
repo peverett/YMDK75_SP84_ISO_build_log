@@ -22,7 +22,7 @@ Unfortunately, I didn't find any build instructions for the kit on-line and
 assumed they would come with the kit. I assumed incorrectly. Any one else
 planning to build this kit, especially for ISO layout, may find this useful.
 
-## Updated: 2020-09-30
+## Update: 2020-09-30
 The Tai Hao ABS key caps, although very nice, didn't quite map to the keyboard 
 layout, and the custom keys I received from WASD keyboards didn't blend well 
 enough.
@@ -34,6 +34,23 @@ ISO keys for the YMDK set could be bought to make it a full ISO UK layout.
 These key caps aren't as nice or as high quality as the Tao Hao ABS Doubleshot 
 key cap set I originally bought, but they fit the layout perfectly and I am very 
 happy with them.
+
+## Update: 2020-11-09
+![YMDK-3D-right](images/YMDK_SP84_3d_case_comparison.jpg)
+
+The under-glow is, well, underwhelming. So I am starting down the road of designing 
+and printing my own case(s). My design replaces the top and bottom acrylic layer 
+with a 3D printed top and bottom case, which then enclose the middle acrylic layers. 
+
+So far, I've only completed the right side of the keyboard, but in comparison the
+white, slightly translucent PLA material for the bottom half of the case vastly 
+improves the under-glow. 
+
+The image above was taken in daylight. The under-glow on the left side is barely
+visible, whereas on the right it is quite bright.
+
+I've only completed the right side. Once I have modelled and printed both sides,
+I will add the 3D model STL files to this repo.
 
 ## Parts
 
@@ -217,7 +234,7 @@ have included the LEDs.
 * ~~YMDK sell key-cap sets (2 different colour schemes) for this, but not ISO~~.
 * ~~The under-glow is very dim and can't be seen in normal lighting conditions.~~
 
-## Updated 2020-09-30: 
+## Update 2020-09-30: 
 
 As you can see, some of the Cons turned out to be simple to resolve.
 * The under-glow is configurable using the Bootmapper Client software, but by 
@@ -225,3 +242,8 @@ default is very dim.
 * YMDK key caps for ISO and ANSI are available on Amazon UK, but it's not a full 
 ISO UK set. There are additional YMDK ISO keys for the key caps that achieve a 
 full ISO UK layout and I am very happy with that.
+
+## Update 2020-11-09:
+
+3D printing a case with a white translucent bottom half seems to significantly 
+improve the underglow.
