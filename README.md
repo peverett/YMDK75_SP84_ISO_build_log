@@ -1,6 +1,6 @@
 # YMDK 75% SP84 Split Keyboard Build Log
 
-![YMDK75-split](images/YMDK_SP84_ISO.jpg)
+![YMDK75-split](images/YMDK_SP84_top_view.jpg)
 Final build with YMDK keycaps (rubber ducky unrelated).
 
 # Introduction
@@ -35,22 +35,21 @@ These key caps aren't as nice or as high quality as the Tao Hao ABS Doubleshot
 key cap set I originally bought, but they fit the layout perfectly and I am very 
 happy with them.
 
-## Update: 2020-11-09
-![YMDK-3D-right](images/YMDK_SP84_3d_case_comparison.jpg)
+## Custom Case Modification: 2020-12-27
 
-The under-glow is, well, underwhelming. So I am starting down the road of designing 
-and printing my own case(s). My design replaces the top and bottom acrylic layer 
-with a 3D printed top and bottom case, which then enclose the middle acrylic layers. 
+The kit comes with six layers of laser cut acrylic that makes up the case, held
+together with 10mm M3 screws and hexagonal brass stand-offs. However, the keyboard
+underglow is very poor due to the black acrylic not reflecting the underside LED 
+very well. I designed my own top and bottom layer to the each keyboard half. They
+completely encapsulate the middle layers and use the same fixings to hold it 
+together.
 
-So far, I've only completed the right side of the keyboard, but in comparison the
-white, slightly translucent PLA material for the bottom half of the case vastly 
-improves the under-glow. 
+By using a white PLA for the bottom of the keyboard halves, the underglow is
+significantly improved. The portal theme is almost accidental, I just used the
+PLA colours I had available.
 
-The image above was taken in daylight. The under-glow on the left side is barely
-visible, whereas on the right it is quite bright.
-
-I've only completed the right side. Once I have modelled and printed both sides,
-I will add the 3D model STL files to this repo.
+All the 3D models are in the [case_models](case_models/README.md) sub-folder for 
+this repository, including some matching 3D printed wrist rests for each half.
 
 ## Parts
 
@@ -247,3 +246,12 @@ full ISO UK layout and I am very happy with that.
 
 3D printing a case with a white translucent bottom half seems to significantly 
 improve the underglow.
+
+## Update 2020-12-27:
+
+I completed the 3D printed case modifications, including wrist rests and added 
+the 3D model files in this repository. See the [case_models](case_models/README.md)
+folder for more details.
+
+![YMDK75-split](images/YMDK_SP84_left_view.jpg)
+![YMDK75-split](images/YMDK_SP84_right_view.jpg)
