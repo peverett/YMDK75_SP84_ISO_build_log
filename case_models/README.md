@@ -9,6 +9,9 @@ for a free, on-line 3D modeling tool it's basic but it gets the job done.
 I have a Prusa MK3S Printer, and used the PrusaSlicer software to slice the models
 for printing. 
 
+### UPDATE: 2021-07-28
+Added .SVG files for the keyboard case tops and bottoms.
+
 ## Print Settings
 
 For printing, I used the basic default settings.
