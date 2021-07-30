@@ -1,7 +1,7 @@
 # YMDK 75% SP84 Split Keyboard Build Log
 
 ![YMDK75-split](images/YMDK_SP84_top_view.jpg)
-Final build with YMDK keycaps (rubber ducky unrelated).
+Final build with YMDK keycaps.
 
 # Introduction
 I decided to level up my Mechanical Keyboard skills by building my first kit.
